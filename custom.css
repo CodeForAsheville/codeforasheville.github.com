@@ -1,12 +1,13 @@
 /*   hackaton.html styles */
 body{
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .masthead{
+	margin: 0 -40px;
 	background-color: #B9F086;
 	background-image: url(./images/wheat.png);
-	background-repeat: no-repeat;
+		background-repeat: no-repeat;
 	background-position: 60px 50px;
 	padding-bottom: 40px;
 	min-height: 370px;
@@ -64,4 +65,57 @@ margin-top: 50px;
 .navbar .brand {
 	padding-left: 50px;
 }
+
+/* responsive styles */	
+
+@media (max-width: 979px) {
+
+
+
+.container{
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.carousel-caption2 {
+	margin-left: 0;
+}
+
+.masthead {
+	margin: 0;
+	background-size: 200px;
+	background-position: 20px 20px;
+	min-height: 300px;
+
+}
+
+.announce{
+	padding-left: 0;
+	padding-top: 250px;
+
+}
+
+.announce h1{
+	font-size: 400%;
+	max-width: 400px;
+}
+
+.location h2{
+	font-size: 20px;
+}	
+
+
+	}
  
+@media (max-width: 767px) {
+	.navbar .navbar-inner{
+		width: 100%;
+	}
+	
+	body{
+	overflow: hidden;
+	}
+	body{
+		padding-left: 0;
+		padding-right: 0;
+}
