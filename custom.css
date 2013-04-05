@@ -4,10 +4,10 @@ body{
 }
 
 .masthead{
-	margin: 0 -40px;
+	margin: 0 ;
 	background-color: #B9F086;
 	background-image: url(./images/wheat.png);
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-position: 60px 50px;
 	padding-bottom: 40px;
 	min-height: 370px;
@@ -70,8 +70,6 @@ margin-top: 50px;
 
 @media (max-width: 979px) {
 
-
-
 .container{
 	padding-left: 20px;
 	padding-right: 20px;	
@@ -109,13 +107,30 @@ margin-top: 50px;
  
 @media (max-width: 767px) {
 	.navbar .navbar-inner{
-		width: 100%;
+		width: 100%
 	}
 	
-	body{
-	overflow: hidden;
-	}
-	body{
+body{
 		padding-left: 0;
 		padding-right: 0;
 }
+
+.navbar .btn-navbar{
+	margin-right: 20px;
+}
+
+.navbar .nav > li > a{
+	padding-left: 50px;
+}
+
+.sponsors img{
+	padding-top: 70px;
+	width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sponsors a{
+	margin: 0 auto;
+	text-align: center;
