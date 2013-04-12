@@ -40,7 +40,11 @@ margin-top: 50px;
 	margin-top: 60px;
 }
 
- .prizes{
+.column1 h3{
+	margin-top: 40px;
+}
+
+.directions, .prizes{
 	margin-top: 80px;
 }
 
