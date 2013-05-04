@@ -1,6 +1,7 @@
 ---
   locale: "en"
 ---
+
 {% include head.html %}
 	{% include navbar.html %}
 	
@@ -70,10 +71,11 @@
 			</div>
 			
 			<div class="prizes">
-			<h2>Prizes: TBD</h2>
-			<p class="lead">1st place: tbd</p>
-			<p class="lead">2nd place: tbd</p>
-			<p class="lead">3rd place: tbd</p>
+			<h2>Prizes:</h2>
+				<ul>
+                	<li>Meat from Warren Wilson's farm</li>
+                    <li>Veggie boxes from New Sprout Farms</li>                   
+                </ul>
 			</div>
 			
 		</div>
