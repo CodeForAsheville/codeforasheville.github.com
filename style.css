@@ -246,7 +246,7 @@
       }
 
 	/*Added stype for sponsor table*/ 
-      .table tr td img{
+      .tableimg{
 	width:100px;
 	height:100px;
       }
