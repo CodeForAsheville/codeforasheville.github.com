@@ -1,4 +1,3 @@
-
     /* GLOBAL STYLES
     -------------------------------------------------- */
     /* Padding below the footer and lighter body text */
@@ -245,6 +244,13 @@
         font-size: 18px;
         line-height: 1.5;
       }
+      
+      /*Resizes images on hackaton.html*/
+      .table tr td img{
+	width:100px;
+	height:100px;
+       }
+
 
     }
 
