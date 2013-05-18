@@ -69,7 +69,7 @@
 					</div>
 			</div>
 			<div class="span2">
-            		<table>
+            		<table cellpadding="5px" >
      <thead>
          <th colspan="2"><h1>Presented by:</h1></th>
      </thead>
@@ -81,10 +81,10 @@
                 <td><a href="http://brigade.codeforamerica.org/"><img style="width:125px; height:47px; border:0px;" src="./images/cfa_brigade_logo.png" /></a></td>
              </tr>
              <tr>
-                 <td><a href="http://hackforchange.org"><img style="width:125px; height:125px; border:0px;" src="./images/Logo_Header_BlueandRed.png" /></a></a></td>  
+                 <td><a href="http://hackforchange.org"><img style="width:125px; height:23px; border:0px;" src="./images/Logo_Header_BlueandRed.png" /></a></a></td>  
              </tr>
              <tr>
-                <td><a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"><img style="width:401px; height:41px; border:0px;" src="./images/ABFPCLogo.jpg" /></a></td>
+                <td><a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"><img style="width:125px; height:61px; border:0px;" src="./images/ABFPCLogo.jpg" /></a></td>
              </tr>
          </tbody>
          
