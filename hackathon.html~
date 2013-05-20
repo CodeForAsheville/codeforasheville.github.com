@@ -40,7 +40,7 @@
 
 					<h3>Rules</h3>
 				        <ul>
-        					<li>Your hack must meet one of the Asheville-Bucombe Food Council goals listed <a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"  target="_blank">here.</a></li>
+        					<li>Your hack must meet one of the Asheville-Bucombe Food Policy Council goals listed <a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"  target="_blank">here.</a></li>
 
          					<li>You must have fun!</li>
                         </ul>			
@@ -50,11 +50,11 @@
         <p>If you can use excel you can hack so join the Hack for Food and you will be placed on a team working on one of the goals listed <a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"  target="_blank">here.</a>. You don't need to be tech savy to participate. We want anyone who wants to help or learn!</p>
 
      <h3>Food expert?</h3>
-         <p>This is your chance to work with tech experts to help accomplish one of the Asheville-Bucombe Food Council goals</p>  
+         <p>This is your chance to work with tech experts to help accomplish one of the Asheville-Bucombe Food Policy Council goals</p>  
   
 
      <h3>Tech expert?</h3>
-         <p>This is your chance to work with food experts to help accomplish one of the Asheville-Bucombe Food Council goals</p>  
+         <p>This is your chance to work with food experts to help accomplish one of the Asheville-Bucombe Food Policy Council goals</p>  
 
      <h3>Need Ideas?</h3>    
  
@@ -65,10 +65,17 @@
           <li>Create a more streamlined technology-based method to apply for food stamps.</li>
           <li>Develop a mobile app to alert people to mobile food markets.</li>
           <li>Use an existing OpenSource applicaions like <a href="https://github.com/ysiadf/AllIncomeFoods" target="_blank">snapfresh</a></li>
+          <li>Or come up with your own using <span style="font-weight:bold">DATA</span> from <a href="http://opendatacatalog.ashevillenc.gov/opendata/tag/40/?sort=name&dir=asc" target="_blank">City of Asheville Data Catalog</a> or  <a href="https://github.com/CodeForAsheville/HackForFoodData" target="_blank">gitHub</a></li>
         </ol>  
 			
+     <h3>Need Data?</h3>    
+ 
+         <ol>
+          <li><a href="http://opendatacatalog.ashevillenc.gov/opendata/tag/40/?sort=name&dir=asc" target="_blank">City of Asheville Data Catalog</a></li>
+	<li>or  <a href="https://github.com/CodeForAsheville/HackForFoodData" target="_blank">gitHub</a></li>
+        </ol>  
 
-     <h3>Basic Goals of the Asheville-Bucombe Food Council</h3>   
+     <h3>Basic Goals of the Asheville-Bucombe Food Policy Council</h3>   
 			  <ol>
 				  <li>An inventory of local food resources;</li>
 				  <li>Identify and implement ways to increase local food production for local consumption;</li>
