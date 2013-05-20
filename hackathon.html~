@@ -27,7 +27,7 @@
 				<h1>Hack for Food!</h1>
 			  <p>The event is a part of the National Day of Civic Hacking, and it is called "Hack for Food."  It is a hackathon sponsored by Code for Asheville, <br  /><br  />
 			    There will be outdoor activities (a picnic, an optional fruit tree planting) as well as indoor hacking for coders and non-coders.  (There is also a "Meet and Greet" event the night before at Mojo Coworking.)<br  /><br  /> 
-			    <span style="font-weight:bold">EVERYONE</span> who attends the event will get <span style="font-weight:bold">$100 of Amazon web services credits</span>.  How cool is that?  That is quite a return on the $10 ticket price. Food and Beverages provided<br  /><br  />
+			    <span style="font-weight:bold">EVERYONE</span> who attends the event will get <span style="font-weight:bold">$100 of Amazon web services credits</span>.  How cool is that?  That is quite a return on the $10 ticket price. Food (breakfast snacks,lunch, and dinner) and Beverages provided<br  /><br  />
 			    The first 50 people get T-shirts  (and swag bag)!<br  /><br  />
 					<h3>Prizes</h3>
 				        <ul>
@@ -40,12 +40,13 @@
 					<h3>Rules</h3>
 				        <ul>
         					<li>Your hack must meet one of the Asheville-Bucombe Food Council goals listed <a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"  target="_blank">here.</a></li>
+
          					<li>You must have fun!</li>
                         </ul><br /><br />			
 
 
      <h3>But I can't hack!</h3>
-        <p>If you can use excel you can hack so join the Hack for Food and you will be placed on a team working on one of the goals listed above. You don't need to be tech sAvy to participate. We want anyone who wants to help or learn!</p>
+        <p>If you can use excel you can hack so join the Hack for Food and you will be placed on a team working on one of the goals listed <a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"  target="_blank">here.</a>. You don't need to be tech savy to participate. We want anyone who wants to help or learn!</p>
 
      <h3>Food expert?</h3>
          <p>This is your chance to work with tech experts to help accomplish one of the Asheville-Bucombe Food Council goals</p>  
@@ -62,9 +63,20 @@
           <li>Create an infographic that examines the lack access to nutritious foods for some neighborhoods in Buncombe County.</li>
           <li>Create a more streamlined technology-based method to apply for food stamps.</li>
           <li>Develop a mobile app to alert people to mobile food markets.</li>
-          <li>Use and existing OpenSource applicaionb like <a href="https://github.com/ysiadf/AllIncomeFoods" target="_blank">snapfresh</a></li>
+          <li>Use an existing OpenSource applicaions like <a href="https://github.com/ysiadf/AllIncomeFoods" target="_blank">snapfresh</a></li>
         </ol>  
 			
+
+     <h3>Basic Goals of the Asheville-Bucombe Food Council</h3>   
+			  <ol>
+				  <li>An inventory of local food resources;</li>
+				  <li>Identify and implement ways to increase local food production for local consumption;</li>
+				  <li>Identify ways to increase access for those who currently do not have it;</li>
+				  <li>Encourage locally grown food being served in City and County Schools;</li>
+				  <li>Develop a plan and implement it through public-private partnerships to ensure a minimum of a one week’s supply of emergency food for the entire county’s population in any season of the year;</li>
+				  <li>Identify economic development opportunities related to agriculture that will enable our region to become nutritionally self-sufficient and economically robust;</li>
+				  <li>Track progress toward increased food production, access, and agriculture-related economic development and to report it out to the public and to policy makers regularly;</li>
+			  </ol>
 			</div>
 
 			<div class="span5">
