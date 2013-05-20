@@ -20,7 +20,7 @@
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="span9">
-            <h1>Saturday, June 1st <br/> 9am - 9pm</h1> 
+            <h1>Saturday, June 1st 9am - 9pm</h1> 
             <h2> Register now on Eventbrite</h2> 
 	             <span style="font-weight:bold"> <a class="btn btn-large btn btn-warning" href="http://hack4food.eventbrite.com/">Register</a></br></span>
 	            <br  /><br  />
@@ -34,7 +34,7 @@
         					<li>Locally raised meat from Warren Wilson College</li>
          					<li>Boxes of local organic veggies from New Sprout Organic Farms</li>
                             <li>Coffee from Counter Culture</li>
-                        </ul><br /><br />			
+                        </ul>			
 			 		</p>
 
 					<h3>Rules</h3>
@@ -42,7 +42,7 @@
         					<li>Your hack must meet one of the Asheville-Bucombe Food Council goals listed <a href="http://www.abfoodpolicy.org/asheville-buncombe-food-action-plan/"  target="_blank">here.</a></li>
 
          					<li>You must have fun!</li>
-                        </ul><br /><br />			
+                        </ul>			
 
 
      <h3>But I can't hack!</h3>
@@ -56,7 +56,7 @@
          <p>This is your chance to work with food experts to help accomplish one of the Asheville-Bucombe Food Council goals</p>  
 
      <h3>Need Ideas?</h3>    
-         </p>
+ 
          <ol>
           <li>Find and locate the best City owned property to create a community garden.</li>
           <li>Create a web application to tell other community gardeners when a community garden needs weeding, feeding, watering, or harvesting.<li>
