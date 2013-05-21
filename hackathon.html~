@@ -72,7 +72,7 @@
  
          <ol>
           <li><a href="http://opendatacatalog.ashevillenc.gov/opendata/tag/40/?sort=name&dir=asc" target="_blank">City of Asheville Data Catalog</a></li>
-	<li>or  <a href="https://github.com/CodeForAsheville/HackForFoodData" target="_blank">gitHub</a></li>
+	<li><a href="https://github.com/CodeForAsheville/HackForFoodData" target="_blank">gitHub</a></li>
         </ol>  
 
      <h3>Basic Goals of the Asheville-Bucombe Food Policy Council</h3>   
@@ -85,6 +85,15 @@
 				  <li>Identify economic development opportunities related to agriculture that will enable our region to become nutritionally self-sufficient and economically robust;</li>
 				  <li>Track progress toward increased food production, access, and agriculture-related economic development and to report it out to the public and to policy makers regularly;</li>
 			  </ol>
+
+     <h3>Free Amazon Credits?</h3>   
+        <p>What can I do with my Amazon Credits?</p>
+			  <ol>
+				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/intro.html" target="_blank"> What is Amazon Web Services</a> (AWS);</li>
+				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/examples.html" target="_blank"> What can I do with AWS</a>;</li>
+				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/getstarted.html" target="_blank"> How do I get started with AWS</a>;</li>
+			  </ol>
+
 			<!--</div>-->
 
 			<!-- <div class="span5"> -->
