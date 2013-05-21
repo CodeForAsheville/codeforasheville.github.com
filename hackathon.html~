@@ -89,9 +89,9 @@
      <h3>Free Amazon Credits?</h3>   
         <p>What can I do with my Amazon Credits?</p>
 			  <ol>
-				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/intro.html" target="_blank"> What is Amazon Web Services</a> (AWS);</li>
-				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/examples.html" target="_blank"> What can I do with AWS</a>;</li>
-				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/getstarted.html" target="_blank"> How do I get started with AWS</a>;</li>
+				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/intro.html" target="_blank">What is Amazon Web Services</a> (AWS);</li>
+				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/examples.html" target="_blank">What can I do with AWS</a>;</li>
+				  <li><a href="http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/getstarted.html" target="_blank">How do I get started with AWS</a>;</li>
 			  </ol>
 
 			<!--</div>-->
@@ -108,15 +108,15 @@
 					<p class="lead">Location: Mojo Coworking</br>
 									Date: May 31st</br>
 									Time: 7pm-9pm</p>
-						<a href="http://goo.gl/maps/NZb0G"><h3>Directions</h3></a><br />
+						<a href="http://goo.gl/maps/NZb0G" targer="_blank" ><h3>Click here for Directions</h3></a><br />
 
 			<h2>Hack for Food</h2>
 					<p class="lead">Please RSVP via <a class="btn btn-large btn btn-warning" href="http://hack4food.eventbrite.com/">Register</a></p>
 					<p class="lead">Location: Haynes Room on the Enka Campus of AB-Tech</br>
 									Date: June 1st</br>
 									Time: 9am-9pm</p>
-						<a href="http://goo.gl/maps/rM4Uc"><h3>Directions</h3></a>
-			  
+						<a href="http://goo.gl/maps/rM4Uc" target="_blank" ><h3>Click here for Directions</h3></a>
+			   
 		</div>
 
 				
