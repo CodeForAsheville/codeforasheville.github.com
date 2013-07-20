@@ -11,38 +11,45 @@
 
     
 
-    <!-- Carousel - but not using at the moment
+    <!-- Carousel - 
     ================================================== -->
 	<script> 
 		$('#home').addClass('active'); 
 		</script>   
 		
    <div id="myCarousel" class="carousel slide">
-		<div class="carousel-inner">
-                <!--  
-		<div class="item active">
-			<img src="./images/rosy.png" />
-			<div class="container">
-				<div class="carousel-caption carousel-caption2">
-				<h1>Let's Hack for Food!</h1>
-				<p class="lead">Join us on June 1st to participate in the National Day of Civic Hacking!</p>
-				<a class="btn btn-large btn-primary" href="./hackathon.html">Learn More About the Hackathon!</a>
-				</div>
+		<div class="carousel-inner">          
+        
+			<div class="item active">
+				<img src="{{ site.content.banner }}">
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
 			</div>
-		</div>
-                  -->
-        <div class="item-active">
-          <img src="{{ site.content.banner }}">
-          <div class="container">
-            <div class="carousel-caption">
-              {% include carousel-caption.html %}
-            </div>
-          </div>
-        </div>
-	  </div>
-	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-	  </div>
+
+			<div class="item">
+				<img src="./images/banner/hack1.jpg" />
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
+			</div>	
+			
+			<div class="item">
+				<img src="./images/banner/hack2.jpg" />
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
+			</div>	
+		
+		</div><!--close carousel-inner-->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	</div><!-- /.carousel -->
 
 
