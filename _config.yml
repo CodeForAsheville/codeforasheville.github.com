@@ -5,14 +5,14 @@ blah:    Hello
 brigade:
     name: Code for Asheville
     city:   Asheville
-    meetup-link: "http://www.meetup.com/cfabrigade/Asheville/"
+    meetup-link: "http://www.meetup.com/Code-for-Asheville/"
     google-group: "https://groups.google.com/a/codeforamerica.org/forum/#!forum/open-asheville"
     github: "https://github.com/codeforasheville" 
     idea-list: "http://opendatacatalog.ashevillenc.gov/opendata/nominate/?sort=rating_score&dir=desc"
 
 content:
     title: Code for Asheville | A Code for America Brigade
-    meetup-invite: "A laid-back <a href='http://www.meetup.com/cfabrigade/Asheville/'>meetup</a>, usually bi-weekly."
+    meetup-invite: "A laid-back <a href='http://www.meetup.com/Code-for-Asheville/'>meetup</a>, usually bi-weekly."
     contact: "Our brigade captains are Scott Barnwell & Dave Michelson (open-asheville@codeforamerica.org)."
     banner: ./images/city_building2.jpg
     projects:
