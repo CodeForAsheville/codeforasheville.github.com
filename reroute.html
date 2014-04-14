@@ -1,0 +1,125 @@
+---
+  locale: "en"
+---
+{%include head.html %}
+
+    <!-- NAVBAR
+    ================================================== -->
+    
+
+              {% include navbar.html %}
+
+    
+
+    <!-- Carousel - 
+    ================================================== -->
+	<script> 
+		$('#home').addClass('active'); 
+		</script>   
+		
+   <div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">          
+        
+			<div class="item active">
+				<img src="{{ site.content.banner }}">
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
+			</div>
+        
+			<div class="item">
+				<img src="./images/banner/swag.jpg" />
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
+			</div>
+
+			<div class="item">
+				<img src="./images/banner/hack1.jpg" />
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
+			</div>	
+			
+			<div class="item">
+				<img src="./images/banner/hack2.jpg" />
+					<div class="container">
+						<div class="carousel-caption">
+						{% include carousel-caption.html %}
+						</div>
+					</div>
+			</div>	
+			
+		</div><!--close carousel-inner-->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	</div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        {% include info-columns.html %}
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+ <hr class="featurette-divider">
+
+  {% include projects.html %}
+
+  <hr class="featurette-divider">
+
+  {% include help-your-city.html %}
+      
+      <hr class="featurette-divider">
+
+      {% include meetups.html %}
+
+      <hr class="featurette-divider">
+
+      {% include press.html %}
+
+      <hr class="featurette-divider">
+
+      {% include discussion.html %}
+
+      <hr class="featurette-divider">
+
+      {% include contact.html %}
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        {% include footer.html %}
+      </footer>
+
+    </div><!-- /.container -->
+
+  <script>
+      !function ($) {
+        $(function(){
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+	
+  </body>
+</html>
