@@ -17,6 +17,8 @@
 	}
 	.logo h1{
 		text-align:center;
+		float:left;
+		padding-right: 20px;
 	}
 	body p{
 		color: #333;
@@ -43,72 +45,124 @@
 		padding: 30px 0px 60px 0px;
 	}
 	.icons > div{
-		max-width: 33%;
-		display:inline-block;
-		float:left;
+		/*max-width: 33%;*/
+		/*display:inline-block;*/
+		/*float:left;*/
 		text-align: center;
 	}
 	.icons > div img{
-		max-width: 100px;
+		/*max-width: 100px;*/
+	}
+	.header-info{
+		float:left;
+		display:inline-block;
+		padding-left: 20px;
+		border-left: 1px solid #ddd;
+	}
+	.header-info p{
+		color: #777;
+	}
+	p{
+		color: #666;
+		line-height: 24px;
+		font-size: 14px;
+	}
+	div.navigation{
+		clear:both;
+		display:block;
+	}
+	div.navigation ul{
+		text-align: center;
+		padding: 20px 0px;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+	div.navigation li{
+		list-style-type: none;
+		display:inline;
+	}
+	div.navigation li:last-child a{
+		border-right: 0px;
+	}
+	div.navigation a{
+		padding: 0px 20px;
+		border-right: 1px solid #ccc;
 	}
 </style>
 
 </head>
 <body>
 	<div class="wrapper container">
-		<div class="row">
-			<div class='logo span8 offset2'>
-				<h1><img src="../images/reroute.jpg" alt="reroute logo" width="300"/></h1>
-			</div>
+		<div class="row">		
 			<div class='promo-icons span6 offset3'>
 				<div class='row icons'>
-					<div class='span2'>
-						<img src="../images/icons-02.png" alt="reroute logo"/>
-					</div>
-					<div class='span2'>
-						<img src="../images/icons-03.png" alt="reroute logo"/>
-					</div>
-					<div class='span2'>
-						<img src="../images/icons-04.png" alt="reroute logo"/>
+					<div class='span6'>
+						<img src="reroute-icons.png" alt="reroute logo"/>
 					</div>
 				</div>									
 			</div>
-		</div>
-				<h3 class="section-header">
+			<div class="span4">
+				<h1><img src="../images/reroute.jpg" alt="reroute logo" width="300"/></h1>
+			</div>							
+			<div class='logo span8 offset2'>
+				<div class="header-info">
 					<p>May 31st</p>
 					<p>Masonic Lodge, Downtown Asheville</p>
-					<p>9am-7pm</p></h3>
-</div>
-<h3 class="section-header">
-					What is ReRoute AVL?
-				</h3>
-				<p>ReRoute AVL is a civic hackathon bringing together transportation organizations and civic­ minded citizens of Asheville to rapidly conceive, design, and prototype multi­modal transportation solution apps. <div></div>Code for Asheville, as a Code for America Brigade, invites the tech community, government officials, and different advocacy groups to see what data is available, listen to local concerns and ideas, and then create! This is part of the National Day of Civic Hacking, where there will be events around  the country aiming to help solve local problems with technology and volunteer power. 
-				<h3 class="section-header">
-					Who should get involved?
-				</h3>
-				<p>
-					Attention Urbanists, Civic Hackers, Transportation Activists, Government Staff, Developers, Designers... anyone with the passion to make our city better. Join us for full day event to create an app to make transportation work for all of Asheville. Bike, Feet or Bus, bring your insights and team up for competition, all for the greater good.
-				</p>
-				<h3 class="section-header">
-					When is it?
-				</h3>
-				<p>Friday, May 30th 6­pm-8pm * Community Social</p>
-						<p>No registration is required for this Friday evening of community input. Beer and sticky notes will be provided for sharing, adding to, and voting for ideas for projects that can be prototyped over the the day hackathon the next day.</p>
-					<p>If you've got an idea or are just curious about civic hacking but can't hang out all weekend, this is the event for you. Hackathon participants should come to the reception too but if you can't make it ­­ no worries ­­ just show up for the start of the hackathon Saturday morning. </p>
-				<p>Saturday May 31, 2014 8am-7pm * Hackathon</p>
-				<p>
-					Masonic Lodge, Asheville, NC. Come at 8am for breakfast, networking and at 9am for team formation. Work stops at 5pm! Lunch and Dinner will also be served to participants. Presentation and awards at 6pm in the main hall. 
-				</p>
-				<h3 class="section-header">
-					How to help?
-				</h3>
-				<p>
-					Get involved Friday night, and bring your ideas and your computer on Saturday!
-					Student groups can apply for scholarships. General Admission is $10 and gets you entrance, swag and the opportunity to do something awesome. 
-				</p>
-				<h3 class="section-header">
-				</h3>
+					<p>9am-7pm</p>
+				</div>
 			</div>
+			<div class="navigation span8 offset2">
+				<ul>
+					<li>
+						<a href="#what">What is Reroute AVL?</a>
+					</li>
+					<li>
+						<a href="#who">Who should get involved?</a>
+					</li>
+					<li>
+						<a href="#when">When is it?</a>
+					</li>										
+				</ul>
+			</div>
+		</div>
+		<div class="span8 offset2">
+			<h3 class="section-header">
+				<a name="whatis">What is ReRoute AVL?</a>
+			</h3>
+			<p>
+				ReRoute AVL is a civic hackathon bringing together transportation organizations and civic­ minded citizens of Asheville to rapidly conceive, design, and prototype multi­modal transportation solution apps.Code for Asheville, as a Code for America Brigade, invites the tech community, government officials, and different advocacy groups to see what data is available, listen to local concerns and ideas, and then create! This is part of the National Day of Civic Hacking, where there will be events around  the country aiming to help solve local problems with technology and volunteer power. 
+			</p>
+			<h3 class="section-header">
+				<a name="who">Who should get involved?</a>
+			</h3>
+			<p>
+				Attention Urbanists, Civic Hackers, Transportation Activists, Government Staff, Developers, Designers... anyone with the passion to make our city better. Join us for full day event to create an app to make transportation work for all of Asheville. Bike, Feet or Bus, bring your insights and team up for competition, all for the greater good.
+			</p>
+			<h3 class="section-header">
+				<a name="when">When is it?</a>
+			</h3>
+			<p>
+				Friday, May 30th 6­pm-8pm * Community Social
+			</p>
+			<p>
+				No registration is required for this Friday evening of community input. Beer and sticky notes will be provided for sharing, adding to, and voting for ideas for projects that can be prototyped over the the day hackathon the next day.
+			</p>
+			<p>
+				If you've got an idea or are just curious about civic hacking but can't hang out all weekend, this is the event for you. Hackathon participants should come to the reception too but if you can't make it ­­ no worries ­­ just show up for the start of the hackathon Saturday morning. 
+			</p>
+			<p>
+				Saturday May 31, 2014 8am-7pm * Hackathon
+			</p>
+			<p>
+				Masonic Lodge, Asheville, NC. Come at 8am for breakfast, networking and at 9am for team formation. Work stops at 5pm! Lunch and Dinner will also be served to participants. Presentation and awards at 6pm in the main hall. 
+			</p>
+			<h3 class="section-header">
+				How to help?
+			</h3>
+			<p>
+				Get involved Friday night, and bring your ideas and your computer on Saturday!
+				Student groups can apply for scholarships. General Admission is $10 and gets you entrance, swag and the opportunity to do something awesome. 
+			</p>
 		</div>
 		<div class="footer row">
 			<div class="span8 offset2">
