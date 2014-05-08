@@ -78,8 +78,11 @@
 	div.navigation ul{
 		text-align: center;
 		padding: 20px 0px;
-		border-top: 1px solid #ccc;
+		/*border-top: 1px solid #ccc;*/
 		border-bottom: 1px solid #ccc;
+				/*border-bottom: 3px solid #2D7CAD;*/
+;
+
 	}
 	div.navigation li{
 		list-style-type: none;
@@ -96,42 +99,76 @@
 		text-align: center;
 	}
 
-	div.footer{
-/*		background: #333;
-*/		clear: both;
+	div.footer-container{
+				border-top: 5px solid #F08B27;
+
+		margin-top: 10px;
+		width: 100%;
+		background: #333;
+		clear: both;
+	}
+
+	div.event-info{
+		text-align: center;
+	}
+
+	div.header-container{
+		margin-bottom: 10px;
+		border-bottom: 5px solid #F08B27;
+		background: #333;
+		width: 100%;
+	}
+
+	.footer-container h2{
+		color: white;
+	}
+
+	.sponsor-list li{
+		background: white;
+		width: 20%;
+		float: left;
+		padding: 10px;
+		margin-right: 20px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+
+	}
+
+	.sponsor-list img{
+
+	}
+
+	.header-info{
+		margin: 0 20px;
 	}
 </style>
 
 </head>
 <body>
+	<div class='header-container'>
+		<div class='container'>
+			<div class="row header-area">		
+				<div class='promo-icons span6 offset3'>
+					<div class='row icons'>
+						<div class=''>
+							<img src="reroute-icons.png" alt="reroute logo" width="200"/>
+						</div>
+					</div>									
+				</div>
+				<div class="span6 offset3">
+					<h1><img src="../images/reroute-logo.png" alt="reroute logo" width="300"/></h1>
+				</div>	
+			</div>
+		</div>
+	</div>
 	<div class="wrapper container">
-		<div class="row header-area">		
-			<div class='promo-icons span6 offset3'>
-				<div class='row icons'>
-					<div class=''>
-						<img src="reroute-icons.png" alt="reroute logo" width="200"/>
-					</div>
-				</div>									
-			</div>
-			<div class="span6 offset3">
-				<h1><img src="../images/reroute.jpg" alt="reroute logo" width="300"/></h1>
-			</div>							
-			<div class='span8 offset2'>
-				<div class="header-info well">
-					<h4>May 30th, 6pm - 8pm</h4>
-					<h5>Community Social</h5>
-					<p>Mojo CoWorking, Downtown Asheville</p>
-				</div>
-				<div class="header-info well">
-					<h4>May 31st, 9am - 7pm</h4>
-					<h5>Main Event</h5>
-					<p>Masonic Lodge, Downtown Asheville</p>
-				</div>
-			</div>
-			<div class="navigation span8 offset2">
+
+		
+		<div class='row'>
+			<div class="navigation span12">
 				<ul>
 					<li>
-						<a href="#what">What is Reroute AVL?</a>
+						<a href="#whatis">What is ReRoute AVL?</a>
 					</li>
 					<li>
 						<a href="#challenges">Challenges and Prizes</a>
@@ -147,29 +184,36 @@
 					</li>	
 					<li>
 						<a href="#datasets">Possible Datasets</a>
-					</li>									
+					</li>	
+					<li>
+						<a href="http://www.eventbrite.com/event/11198347559?ref=ebtn" target="_blank">
+						  <img border="0" src="http://www.eventbrite.com/custombutton?eid=11198347559" alt="Register for ReRoute AVL" />
+						</a>
+					</li>								
 				</ul>
 			</div>
 		</div>
-		<div class="span8 offset2">
+		<div class="span12">
 			<div class="alert alert-success">
 				<a href='https://transit-hackathon.eventbrite.com/' title='Register now!' class="alert-link">
 					All attendees must register for ReRoute AVL on EventBrite - click here! 
 				</a>
 			</div>
 		</div>
-		<div class="span8 offset2">
+
+		
+		<div class="span12">
 			<h3 class="section-header">
-				<a name="whatis">What is ReRoute AVL?</a>
+				<a name="whatis">What?</a> <small>Learn more about our ReRotue AVL</small>
 			</h3>
 			<p>
-				ReRoute AVL is a civic hackathon bringing together transportation organizations and civic­ minded citizens of Asheville to rapidly conceive, design, and prototype multi­modal transportation solution apps.Code for Asheville, as a Code for America Brigade, invites the tech community, government officials, and different advocacy groups to see what data is available, listen to local concerns and ideas, and then create! This is part of the National Day of Civic Hacking, where there will be events around  the country aiming to help solve local problems with technology and volunteer power. 
+				ReRoute AVL is a civic hackathon bringing together transportation organizations and civic­ minded citizens of Asheville to rapidly conceive, design, and prototype multi­modal transportation solution apps. Code for Asheville, as a Code for America Brigade, invites the tech community, government officials, and different advocacy groups to see what data is available, listen to local concerns and ideas, and then create! This is part of the National Day of Civic Hacking, where there will be events around  the country aiming to help solve local problems with technology and volunteer power. 
 			</p>
 			<h3 class="section-header">
 				<a name="challenges">Challenges and Prizes</a>
 			</h3>
 			<p>
-				Challenges and prizes 
+				Challenges and prizes are currently being determined - check back soon! 
 			</p>
 			<h3 class="section-header">
 				<a name="who">Who should get involved?</a>
@@ -180,6 +224,20 @@
 			<h3 class="section-header">
 				<a name="when">When is it?</a>
 			</h3>
+			<div class='event-info'>						
+				<div class='span12'>
+					<div class="header-info well">
+						<h4>May 30th, 6pm - 8pm</h4>
+						<h5>Community Social</h5>
+						<p>Mojo CoWorking, Downtown Asheville</p>
+					</div>
+					<div class="header-info well">
+						<h4>May 31st, 9am - 7pm</h4>
+						<h5>Main Event</h5>
+						<p>Masonic Lodge, Downtown Asheville</p>
+					</div>
+				</div>
+			</div>
 			<p>
 				Friday, May 30th 6­pm-8pm * Community Social
 			</p>
@@ -201,7 +259,11 @@
 			<p>
 				Sample project ideas from other hackathons:
 				<ul>
-
+					<li>
+						<a href='http://hattery.com/reroutesf/'>
+							ReRoute SF - previous hackathon
+						</a>
+					</li>
 				</ul>
 			</p>
 			<h3 class="section-header">
@@ -220,8 +282,16 @@
 							Hack for Change Data Sets
 						</a>
 					</li>
-
-					
+					<li>
+						Google APIs:
+						<ul>
+							<li>
+								<a href='https://developers.google.com/maps/documentation/elevation/'>
+									Elevation API
+								</a>
+							</li>
+						</ul>
+					</li>
 				</ul>
 			</p>
 			<h3 class="section-header">
@@ -232,20 +302,54 @@
 				Student groups can apply for scholarships. General Admission is $10 and gets you entrance, swag and the opportunity to do something awesome. 
 			</p>
 		</div>
-		<div class="footer row">
-			<div class="span8 offset2">
-				<div style="width:195px; text-align:center" >
-					<iframe  src="https://www.eventbrite.com/countdown-widget?eid=11198347559" frameborder="0" height="509" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
-					<div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" >
-						<a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/ecount">
-							Online event registration
-						</a>
-						<span style="color:#ddd;"> for </span>
-						<a style="color:#ddd; text-decoration:none;" target="_blank" href="https://transit-hackathon.eventbrite.com/?ref=ecount">ReRoute AVL - Creating Apps for Better Transportation for Asheville</a> 
-						<span style="color:#ddd;">powered by</span> 
-						<a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=ecount">Eventbrite</a>
-					</div>
+	</div>
+	<div class='footer-container'>
+		<div class='container'>
+
+			<div class="footer row">
+				<div class='span12'>
+					<h2 class="sponsors-header">
+						<a name="sponsors">Organizers / Sponsors</a>
+					</h2>
+					<ul class='sponsor-list'>
+						<li>
+							<a href='http://www.codeforasheville.org'>
+								<img src='http://codeforasheville.org/images/cfa_logo.png' />
+							</a>
+						</li>
+						<li>
+							<a href='http://www.hackforchange.org'>
+								<img src='https://photos-1.dropbox.com/t/0/AACi8T1z0Fw0rC2lZSd640jCU720L16XjuQ9MFy4FtJmKQ/12/15345117/jpeg/32x32/3/1399572000/0/2/nd_logo_light.ai/ojyj_5wLXLVQP4I7HBTNZhCUdxAYn470bdcTSDQcCvg?size=1024x768' />
+							</a>
+						</li>
+						<li>
+							<a href='http://www.codeforamerica.org'>
+								<img src='http://codeforamerica.org/media/images/logos/CfA_logo_lg.png' />
+							</a>
+						</li>
+
+
+						
+
+						
+					</ul>
 				</div>
+
+				
+				<!-- <div class="span12">
+					<div style="width:195px; text-align:center" >
+						<iframe  src="https://www.eventbrite.com/countdown-widget?eid=11198347559" frameborder="0" height="509" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
+						<div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" >
+							<a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/ecount">
+								Online event registration
+							</a>
+							<span style="color:#ddd;"> for </span>
+							<a style="color:#ddd; text-decoration:none;" target="_blank" href="https://transit-hackathon.eventbrite.com/?ref=ecount">ReRoute AVL - Creating Apps for Better Transportation for Asheville</a> 
+							<span style="color:#ddd;">powered by</span> 
+							<a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=ecount">Eventbrite</a>
+						</div>
+					</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
