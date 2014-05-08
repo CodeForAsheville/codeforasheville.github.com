@@ -12,6 +12,30 @@
 
 
 <style>
+	.full-bleed{
+		color: white !important;
+		padding: 40px 0px;
+	}
+	.full-bleed1{
+		background: #F08B27;
+	}
+	.full-bleed2{
+		background: #A4CC56;
+	}
+	.full-bleed3{
+		background: #41A7BF;
+	}
+	.full-bleed4{
+		background: #A58A6A;
+	}	
+	.full-bleed h3, .full-bleed h4, .full-bleed h5, .full-bleed a{
+		color: white;
+	}
+	.full-bleed p{
+		color: white;
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}	
 	.logo{
 		padding: 20px 0px;
 	}
@@ -36,10 +60,17 @@
 		background-color:#E5E6E6;
 	}
 	.section-header{
-		margin-top: 40px;
-		padding-bottom: 5px;
-		border-bottom: 3px solid #F08B27;
-		text-align: left;
+		/*margin-top: 40px;*/
+		/*padding-bottom: 5px;*/
+		/*border-bottom: 3px solid #F08B27;*/
+		margin: 0px;
+		text-align: right;
+		font-size: 3em;
+		font-weight:lighter;
+		line-height: 1em;
+	}
+	.section-header a:hover{
+		text-decoration: none;
 	}
 	.footer{
 		padding: 30px 0px 60px 0px;
@@ -77,8 +108,9 @@
 	div.navigation ul{
 		text-align: center;
 		padding: 20px 0px;
+		margin-bottom: 0px;
 		/*border-top: 1px solid #ccc;*/
-		border-bottom: 1px solid #ccc;
+		/*border-bottom: 1px solid #ccc;*/
 				/*border-bottom: 3px solid #2D7CAD;*/
 ;
 
@@ -91,7 +123,9 @@
 		border-right: 0px;
 	}
 	div.navigation a{
-		padding: 0px 20px;
+		text-decoration: underline;
+		color: white;
+		padding: 0px 10px;
 		border-right: 1px solid #ccc;
 	}
 	div.header-area{
@@ -112,8 +146,9 @@
 	}
 
 	div.header-container{
-		margin-bottom: 10px;
-		border-bottom: 5px solid #F08B27;
+		/*margin-bottom: 10px;*/
+		/*border-bottom: 5px solid #F08B27;*/
+		padding-top: 20px;
 		background: #333;
 		width: 100%;
 	}
@@ -141,6 +176,17 @@
 		margin-right: 20px;
 		text-align: center;
 	}
+	@media (max-width: 767px){
+		.row{
+			padding: 0px 20px;
+		}
+		body{
+			padding: 0px;
+		}
+		.section-header{
+			text-align: center;
+		}
+	}
 </style>
 
 </head>
@@ -159,42 +205,41 @@
 					<h1><img src="../images/reroute-logo.png" alt="reroute logo" width="300"/></h1>
 				</div>	
 			</div>
+			<div class='row'>
+				<div class="navigation span12">
+					<ul>
+						<li>
+							<a href="#whatis">What is ReRoute AVL?</a>
+						</li>
+						<li>
+							<a href="#when">When is it?</a>
+						</li>
+						
+						<li>
+							<a href="#who">Who should get involved?</a>
+						</li>
+						<li>
+							<a href="#challenges">Challenges and Prizes</a>
+						</li>
+							
+						<li>
+							<a href="#project_ideas">Project Ideas</a>
+						</li>	
+						<li>
+							<a href="#datasets">Possible Datasets</a>
+						</li>	
+						<li>
+							<a href="http://www.eventbrite.com/event/11198347559?ref=ebtn" target="_blank">
+							  <img border="0" src="http://www.eventbrite.com/custombutton?eid=11198347559" alt="Register for ReRoute AVL" />
+							</a>
+						</li>								
+					</ul>
+				</div>
+			</div>			
 		</div>
 	</div>
-	<div class="wrapper container">
-
-		
-		<div class='row'>
-			<div class="navigation span12">
-				<ul>
-					<li>
-						<a href="#whatis">What is ReRoute AVL?</a>
-					</li>
-					<li>
-						<a href="#when">When is it?</a>
-					</li>
-					
-					<li>
-						<a href="#who">Who should get involved?</a>
-					</li>
-					<li>
-						<a href="#challenges">Challenges and Prizes</a>
-					</li>
-						
-					<li>
-						<a href="#project_ideas">Project Ideas</a>
-					</li>	
-					<li>
-						<a href="#datasets">Possible Datasets</a>
-					</li>	
-					<li>
-						<a href="http://www.eventbrite.com/event/11198347559?ref=ebtn" target="_blank">
-						  <img border="0" src="http://www.eventbrite.com/custombutton?eid=11198347559" alt="Register for ReRoute AVL" />
-						</a>
-					</li>								
-				</ul>
-			</div>
-		</div>
+	<div class="wrapper container">	
+	</div>
 		<!-- <div class="span12">
 			<div class="alert alert-success">
 				<a href='https://transit-hackathon.eventbrite.com/' title='Register now!' class="alert-link">
@@ -202,121 +247,182 @@
 				</a>
 			</div>
 		</div> -->
-
-		
-		<div class="span12">
-			<h3 class="section-header">
-				<a name="whatis">What is ReRoute AVL?</a>
-			</h3>
-			<p>
-				ReRoute AVL is a civic hackathon bringing together transportation organizations and civic­ minded citizens of Asheville to rapidly conceive, design, and prototype multi­modal transportation solution apps. Code for Asheville, as a Code for America Brigade, invites the tech community, government officials, and different advocacy groups to see what data is available, listen to local concerns and ideas, and then create! This is part of the National Day of Civic Hacking, where there will be events around  the country aiming to help solve local problems with technology and volunteer power. 
-			</p>
-			<h3 class="section-header">
-				<a name="when">When is it?</a>
-			</h3>
-			<div class='row'>						
-				<div class="span3 header-info well">
-					<h4>Friday, May 30th, 6pm - 8pm</h4>
-					<h5>Community Social</h5>
-					<p>Mojo CoWorking, Downtown Asheville</p>
+	<div class="full-bleed full-bleed1">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">
+					<h3 class="section-header">
+						<a name="whatis">What is <br> ReRoute AVL?</a>
+					</h3>
 				</div>
-				<div class='span8'>
+				<div class="span8">
 					<p>
-						No registration is required for this Friday evening of community input. Beer and sticky notes will be provided for sharing, adding to, and voting for ideas for projects that can be prototyped over the the day hackathon the next day.
-					</p>
-					<p>
-						If you've got an idea or are just curious about civic hacking but can't hang out all weekend, this is the event for you. Hackathon participants should come to the reception too but if you can't make it ­­ no worries ­­ just show up for the start of the hackathon Saturday morning. 
+						ReRoute AVL is a civic hackathon bringing together transportation organizations and civic­ minded citizens of Asheville to rapidly conceive, design, and prototype multi­modal transportation solution apps. Code for Asheville, as a Code for America Brigade, invites the tech community, government officials, and different advocacy groups to see what data is available, listen to local concerns and ideas, and then create! This is part of the National Day of Civic Hacking, where there will be events around  the country aiming to help solve local problems with technology and volunteer power. 
 					</p>
 				</div>
 			</div>
-			<hr />
-			<div class='row'>
-				<div class="span3 header-info well">
-					<h4>Saturday, May 31st, 8am - 7pm</h4>
-					<h5>Hackathon</h5>
-					<p>Masonic Lodge, Downtown Asheville</p>
+		</div>
+	</div>
+	<div class="full-bleed full-bleed2">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">
+					<h3 class="section-header">
+						<a name="when">When is it?</a>
+					</h3>
+				</div>					
+				<div class="span4">
+					<div class="friday">
+						<div class="date-detail">
+							<h4>Friday, May 30th, 6pm - 8pm</h4>
+							<h5>Community Social</h5>
+							<p>Mojo CoWorking, Downtown Asheville</p>
+						</div>
+						<p>
+							No registration is required for this Friday evening of community input. Beer and sticky notes will be provided for sharing, adding to, and voting for ideas for projects that can be prototyped over the the day hackathon the next day.
+						</p>
+						<p>
+							If you've got an idea or are just curious about civic hacking but can't hang out all weekend, this is the event for you. Hackathon participants should come to the reception too but if you can't make it ­­ no worries ­­ just show up for the start of the hackathon Saturday morning. 
+						</p>						
+					</div>
 				</div>
-				<p class='span8'>
-					Masonic Lodge, Asheville, NC. Come at 8am for breakfast, networking and at 9am for team formation. Work stops at 5pm! Lunch and Dinner will also be served to participants. Presentation and awards at 6pm in the main hall. 
-				</p>
+				<div class='span4'>
+					<div class="saturday">
+						<div class="date-detail">
+							<h4>Saturday, May 31st, 8am - 7pm</h4>
+							<h5>Hackathon</h5>
+							<p>Masonic Lodge, Downtown Asheville</p>
+						</div>
+						<p class=''>
+							Masonic Lodge, Asheville, NC. Come at 8am for breakfast, networking and at 9am for team formation. Work stops at 5pm! Lunch and Dinner will also be served to participants. Presentation and awards at 6pm in the main hall. 
+						</p>					
+					</div>					
+				</div>
 			</div>
-			
-			<h3 class="section-header">
-				<a name="who">Who should get involved?</a>
-			</h3>
-			<p>
-				Attention Urbanists, Civic Hackers, Transportation Activists, Government Staff, Developers, Designers... anyone with the passion to make our city better. Join us for full day event to create an app to make transportation work for all of Asheville. Bike, Feet or Bus, bring your insights and team up for competition, all for the greater good.
-			</p>
-			<h3 class="section-header">
-				<a name="challenges">Challenges and Prizes</a>
-			</h3>
-			<p>
-				Challenges and prizes are currently being determined - check back soon! 
-			</p>
-
-			<h3 class="section-header">
-				<a name="project_ideas">Sample Project Ideas</a>
-			</h3>
-			<p>
-				Sample project ideas and other hackathons:
-				<ul>
-					<li>
-						<a href="http://codeforasheville.org/hackathon.html">
-							Hack for Food - Last year's event
-						</a>
-					<li>
-						<a href='http://hattery.com/reroutesf/'>
-							ReRoute SF - Similar event in San Francisco
-						</a>
-					</li>
-					<li>
-						More to come!
-					</li>
-				</ul>
-			</p>
-			<h3 class="section-header">
-				<a name="datasets">Datasets</a>
-			</h3>
-			<p>
-				Datasets
-				<ul>
-					<li>
-						<a href='http://opendatacatalog.ashevillenc.gov/'>
-							City of Asheville Open Data Catalog
-						</a>
-					</li>
-					<li>
-						<a href='http://hackforchange.org/data/'>
-							Hack for Change Data Sets
-						</a>
-					</li>
-					<li>
-						Google APIs:
+		</div>
+	</div>
+	<div class="full-bleed full-bleed3">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">		
+					<h3 class="section-header">
+						<a name="who">Who should get involved?</a>
+					</h3>
+				</div>
+				<div class="span8">
+					<p>
+						Attention Urbanists, Civic Hackers, Transportation Activists, Government Staff, Developers, Designers... anyone with the passion to make our city better. Join us for full day event to create an app to make transportation work for all of Asheville. Bike, Feet or Bus, bring your insights and team up for competition, all for the greater good.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-bleed full-bleed4">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">	
+					<h3 class="section-header">
+						<a name="challenges">Challenges and Prizes</a>
+					</h3>
+				</div>
+				<div class="span8">
+					<p>
+						Challenges and prizes are currently being determined - check back soon! 
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-bleed full-bleed5">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">	
+					<h3 class="section-header">
+						<a name="project_ideas">Sample Project Ideas</a>
+					</h3>
+				</div>
+				<div class="span8">
+					<p>
+						Sample project ideas and other hackathons:
 						<ul>
 							<li>
-								<a href='https://developers.google.com/maps/documentation/elevation/'>
-									Elevation API
+								<a href="http://codeforasheville.org/hackathon.html">
+									Hack for Food - Last year's event
+								</a>
+							<li>
+								<a href='http://hattery.com/reroutesf/'>
+									ReRoute SF - Similar event in San Francisco
 								</a>
 							</li>
+							<li>
+								More to come!
+							</li>
 						</ul>
-					</li>
-					<li>
-						More to come!
-					</li>
-				</ul>
-			</p>
-			<h3 class="section-header">
-				How to help?
-			</h3>
-			<p>
-				Get involved Friday night, and bring your ideas and your computer on Saturday!
-				Student groups can apply for scholarships. General Admission is $10 and gets you entrance, swag and the opportunity to do something awesome. 
-			</p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-bleed full-bleed6">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">		
+					<h3 class="section-header">
+						<a name="datasets">Datasets</a>
+					</h3>
+				</div>
+				<div class="span8">
+					<p>
+						Datasets
+						<ul>
+							<li>
+								<a href='http://opendatacatalog.ashevillenc.gov/'>
+									City of Asheville Open Data Catalog
+								</a>
+							</li>
+							<li>
+								<a href='http://hackforchange.org/data/'>
+									Hack for Change Data Sets
+								</a>
+							</li>
+							<li>
+								Google APIs:
+								<ul>
+									<li>
+										<a href='https://developers.google.com/maps/documentation/elevation/'>
+											Elevation API
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								More to come!
+							</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="full-bleed full-bleed7">
+		<div class="wrapper container">
+			<div class="row">	
+				<div class="span4">		
+					<h3 class="section-header">
+						How to help?
+					</h3>
+				</div>
+				<div class="span8">
+					<p>
+						Get involved Friday night, and bring your ideas and your computer on Saturday!
+						Student groups can apply for scholarships. General Admission is $10 and gets you entrance, swag and the opportunity to do something awesome. 
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class='footer-container'>
 		<div class='container'>
-
 			<div class="footer row">
 				<div class='span12'>
 					<h3 class="sponsors-header">
