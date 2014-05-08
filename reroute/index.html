@@ -41,7 +41,12 @@
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;	
-		display:block;	
+		display:block;
+		-webkit-transition: all .2s ease-out;
+		-moz-transition: all .2s ease-out;
+		-ms-transition: all .2s ease-out;
+		-o-transition: all .2s ease-out;
+		transition: all .2s ease-out;			
 	}
 	.datasets li a:hover, .ideas li a:hover{
 		text-decoration: none;
@@ -127,6 +132,16 @@
 		font-weight:lighter;
 		line-height: 1em;
 	}
+	.footer-header{
+		text-align: center;
+		margin-bottom: 40px;
+	}	
+	.footer-header a.border-button{
+		font-size: 16px !important;
+		padding: 10px;
+		font-size: .5em;
+		line-height: .5em;
+	}
 	.section-header a:hover{
 		text-decoration: none;
 	}
@@ -194,6 +209,7 @@
 				/*border-top: 5px solid #F08B27;*/
 
 		/*margin-top: 10px;*/
+		padding: 20px 0px;
 		width: 100%;
 		background: #333;
 		clear: both;
@@ -497,12 +513,13 @@
 			</div>
 		</div>
 	</div>
-	<div class='footer-container'>
+	<div class='footer-container full-bleed'>
 		<div class='container'>
 			<div class="footer row">
 				<div class='span12'>
-					<h3 class="sponsors-header">
+					<h3 class="section-header footer-header">
 						<a name="sponsors">Organizers / Sponsors</a>
+						<a href="../images/sponsorships.pdf" class="border-button">+ Become a Sponsor</a>
 					</h3>
 					<ul class='sponsor-list'>
 						<li>
@@ -524,12 +541,7 @@
 							<a href='http://mojocoworking.com'>
 								<img src='images/mojo.png' />
 							</a>
-						</li>
-
-
-						
-
-						
+						</li>	
 					</ul>
 				</div>
 
