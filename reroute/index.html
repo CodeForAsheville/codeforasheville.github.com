@@ -12,12 +12,61 @@
 
 
 <style>
+	.rounded-border{
+		border: 1px solid white;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.date-detail{
+		text-align: center;
+	}
+	.datasets ul, .ideas ul{
+		text-align: left;
+		margin: 0px;
+		overflow:hidden;
+		margin-bottom: 20px;
+	}
+	.datasets li, .ideas li{
+		list-style-type: none;
+		display:inline-block;
+		float:left;
+		margin-right: 5px;
+	}	
+	.datasets li a, .ideas li a{
+		padding:10px;
+		border: 1px solid white;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;	
+		display:block;	
+	}
+	.datasets li a:hover, .ideas li a:hover{
+		text-decoration: none;
+		background: white;
+		color: #7DA8CC;
+	}
+	.border-button{
+		padding:10px;
+		border: 1px solid white;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;	
+		display:inline-block;			
+	}
+	.border-button:hover{
+		text-decoration: none;
+		background: white;
+		color: #7DA8CC;
+	}	
 	.full-bleed{
 		color: white !important;
-		padding: 40px 0px;
+		padding: 80px 0px;
 	}
 	.full-bleed1{
-		background: #F08B27;
+		background: #7DA8CC;
 	}
 	.full-bleed2{
 		background: #A4CC56;
@@ -27,6 +76,15 @@
 	}
 	.full-bleed4{
 		background: #A58A6A;
+	}
+	.full-bleed5{
+		background: #E56B41;
+	}
+	.full-bleed6{
+		background: #856AC6;
+	}
+	.full-bleed7{
+		background: #F08B27;
 	}	
 	.full-bleed h3, .full-bleed h4, .full-bleed h5, .full-bleed a{
 		color: white;
@@ -133,9 +191,9 @@
 	}
 
 	div.footer-container{
-				border-top: 5px solid #F08B27;
+				/*border-top: 5px solid #F08B27;*/
 
-		margin-top: 10px;
+		/*margin-top: 10px;*/
 		width: 100%;
 		background: #333;
 		clear: both;
@@ -163,6 +221,8 @@
 		float: left;
 		padding: 10px;
 		margin-right: 20px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
 		border-radius: 5px;
 		box-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 
@@ -194,16 +254,16 @@
 	<div class='header-container'>
 		<div class='container'>
 			<div class="row header-area">		
+				<div class="span6 offset3">
+					<h1><img src="../images/reroute-logo.png" alt="reroute logo" width="300"/></h1>
+				</div>
 				<div class='promo-icons span6 offset3'>
 					<div class='row icons'>
 						<div class=''>
 							<img src="reroute-icons.png" alt="reroute logo" width="200"/>
 						</div>
 					</div>									
-				</div>
-				<div class="span6 offset3">
-					<h1><img src="../images/reroute-logo.png" alt="reroute logo" width="300"/></h1>
-				</div>	
+				</div>					
 			</div>
 			<div class='row'>
 				<div class="navigation span12">
@@ -273,9 +333,9 @@
 				</div>					
 				<div class="span4">
 					<div class="friday">
-						<div class="date-detail">
+						<div class="date-detail rounded-border">
 							<h4>Friday, May 30th, 6pm - 8pm</h4>
-							<h5>Community Social</h5>
+							<h4>Community Social</h4>
 							<p>Mojo CoWorking, Downtown Asheville</p>
 						</div>
 						<p>
@@ -288,14 +348,17 @@
 				</div>
 				<div class='span4'>
 					<div class="saturday">
-						<div class="date-detail">
+						<div class="date-detail rounded-border">
 							<h4>Saturday, May 31st, 8am - 7pm</h4>
-							<h5>Hackathon</h5>
+							<h4>Hackathon</h4>
 							<p>Masonic Lodge, Downtown Asheville</p>
 						</div>
 						<p class=''>
 							Masonic Lodge, Asheville, NC. Come at 8am for breakfast, networking and at 9am for team formation. Work stops at 5pm! Lunch and Dinner will also be served to participants. Presentation and awards at 6pm in the main hall. 
-						</p>					
+						</p>
+						<a class="border-button" href="http://www.eventbrite.com/event/11198347559?ref=ebtn" target="_blank">
+							I'd like to Register for ReRoute &#8594;
+						</a>					
 					</div>					
 				</div>
 			</div>
@@ -342,23 +405,25 @@
 					</h3>
 				</div>
 				<div class="span8">
-					<p>
-						Sample project ideas and other hackathons:
+					<div class='rounded-border ideas'>
+						<h4>
+							Datasets
+						</h4>
 						<ul>
 							<li>
 								<a href="http://codeforasheville.org/hackathon.html">
-									Hack for Food - Last year's event
+									Hack for Food - Last year's event &#8594;
 								</a>
 							<li>
 								<a href='http://hattery.com/reroutesf/'>
-									ReRoute SF - Similar event in San Francisco
+									ReRoute SF - Similar event in San Francisco &#8594;
 								</a>
 							</li>
 							<li>
 								More to come!
 							</li>
 						</ul>
-					</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -372,34 +437,40 @@
 					</h3>
 				</div>
 				<div class="span8">
-					<p>
-						Datasets
-						<ul>
-							<li>
-								<a href='http://opendatacatalog.ashevillenc.gov/'>
-									City of Asheville Open Data Catalog
-								</a>
-							</li>
-							<li>
-								<a href='http://hackforchange.org/data/'>
-									Hack for Change Data Sets
-								</a>
-							</li>
-							<li>
+					<div class="rounded-border datasets">
+						<div class="data1">
+							<h4>
+								Datasets
+							</h4>
+							<ul>
+								<li>
+									<a href='http://opendatacatalog.ashevillenc.gov/'>
+										City of Asheville Open Data Catalog &#8594;
+									</a>
+								</li>
+								<li>
+									<a href='http://hackforchange.org/data/'>
+										Hack for Change Data Sets &#8594;
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="data2">
+							<h4>
 								Google APIs:
-								<ul>
-									<li>
-										<a href='https://developers.google.com/maps/documentation/elevation/'>
-											Elevation API
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								More to come!
-							</li>
-						</ul>
-					</p>
+							</h4>							
+							<ul>
+								<li>
+									<a href='https://developers.google.com/maps/documentation/elevation/'>
+										Elevation API &#8594;
+									</a>
+								</li>
+								<li>
+									More to come!
+								</li>								
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -417,6 +488,9 @@
 						Get involved Friday night, and bring your ideas and your computer on Saturday!
 						Student groups can apply for scholarships. General Admission is $10 and gets you entrance, swag and the opportunity to do something awesome. 
 					</p>
+					<a class="border-button" href="http://www.eventbrite.com/event/11198347559?ref=ebtn" target="_blank">
+						I'd like to Register for ReRoute &#8594;
+					</a>
 				</div>
 			</div>
 		</div>
