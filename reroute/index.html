@@ -24,13 +24,13 @@
 		.date-detail{
 			text-align: center;
 		}
-		.datasets ul, .ideas ul{
+		.datasets ul, .ideas ul.ideas-projects{
 			text-align: left;
 			margin: 0px;
 			overflow:hidden;
 			margin-bottom: 20px;
 		}
-		.datasets li, .ideas li{
+		.datasets li, .ideas .ideas-projects li{
 			list-style-type: none;
 			display:inline-block;
 			float:left;
@@ -279,6 +279,10 @@
 				text-align: center;
 			}
 		}
+
+		.ideas-bullets li{
+			list-style: disc;
+		}
 	</style>
 
 </head>
@@ -465,9 +469,9 @@
 				<div class="span8">
 					<div class='rounded-border ideas'>
 						<h4>
-							Projects
+							Project Resources
 						</h4>
-						<ul>
+						<ul class='ideas-projects'>
 							<li>
 								<a href="http://codeforasheville.org/hackathon.html">
 									Hack for Food - Last year's event &#8594;
@@ -482,15 +486,12 @@
 									Finda - Dataset Mapping Visualization Tool by Code for Boston &#8594;
 								</a>
 							</li>
-							<li>
-								More to come!
-							</li>
 						</ul>
-						<h4 />
+						<hr />
 						<h4>
-							Ideas
+							Other Ideas
 						</h4>
-						<ul>
+						<ul class='ideas-bullets'>
 							<li>
 								A map that combines existing public data sets to encourage alternative routes and transportation methods. 
 							</li>
